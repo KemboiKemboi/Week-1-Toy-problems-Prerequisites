@@ -1,26 +1,23 @@
-# Week-1-Toy-problems-Prerequisites
-# Student Grade Generator
+# Speed Detector
 
 ## What it does
 
-This is a simple program that asks you to enter a student's marks (between 0 and 100) and then gives you the corresponding grade. Here's how it works:
+This program takes the speed of a car as input and calculates how many demerit points the driver has earned based on how much they exceed the speed limit of 70 km/h.
 
-- **A**: 80 and above
-- **B**: 60 - 79
-- **C**: 50 - 59
-- **D**: 40 - 49
-- **E**: Below 40
-
-It will make sure the number you enter is valid (between 0 and 100).
+- If the speed is less than 70 km/h, it prints "Ok".
+- For every 5 km/h above 70, the driver gets 1 demerit point.
+- If the driver earns more than 12 demerit points, their license gets suspended.
 
 ## How to Use
 
-1. Copy the code into a JavaScript file or use your browser's console.
-2. Run the program by calling the `gradeGenerator()` function.
-3. Enter a student's marks when prompted.
-4. It will then tell you the grade.
+1. Copy the code into a JavaScript file or use your browser’s console.
+2. Run the program by calling the `speedDetector()` function.
+3. Enter the car's speed when prompted.
+4. The program will calculate and display whether the driver is okay or how many demerit points they’ve earned.
 
 ### Example:
 
-If you enter `85`, it will tell you:
+- If you enter `80`, it will print:
+
+
 
